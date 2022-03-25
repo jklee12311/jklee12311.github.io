@@ -24,7 +24,7 @@
   /* 상단 배너 */
   /* 상단 배너 배경 색 */
   /* --top-banner-bg: var(--body-bg); */
-  --top-banner-bg: #000000;
+  --top-banner-bg: #0B2859;
   /* 상단 배너 글자 색 */
   --top-banner-font: #ffffff;
 
@@ -36,7 +36,7 @@
 
   /* 상단 배너 버튼 */
   /* 상단 배너 버튼 배경 색 */
-  --cta-banner-button-bg: var(--cta-button-bg);
+  --cta-banner-button-bg: #ff6600;
   /* 상단 배너 버튼 글자 색 */
   --cta-banner-button-font: var(--cta-button-font);
 
@@ -90,7 +90,7 @@
   
   /* Team */
   /* 배경 색 */
-  --team-title-bg: var(--section-title-bg);
+  --team-title-bg: #ffa971;
   /* 글자 색 */
   --team-title-font: var(--section-title-font);
   /* 카드 제목 색 */
@@ -193,6 +193,7 @@ nav {
   background: var(--top-banner-bg);
   color: var(--top-banner-font);
   display: flex;
+  justify-content: space-between;
 }
 
 /* 탑배너 */
@@ -221,12 +222,12 @@ nav {
 }
 
 .top-banner__subtitle {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .top-banner__cta-button {
-  margin-top: 67px;
+  margin-top: 30px;
   background: var(--cta-banner-button-bg);
   color: var(--cta-banner-button-font);
   width: 310px;
@@ -288,12 +289,12 @@ nav {
 
 
 #team-section > .section-title {
-  background-color: var(--team-title-bg);
+  background-color: #ffa971;
   color: var(--team-title-font);
 }
 
 #team-section > .grid-4fr > .card__ {
-  background-color: var(--team-card-bg);
+  background-color: #ffa971;
 }
 
 #team-section > .grid-4fr > .card__ > .card__title {
@@ -310,13 +311,13 @@ nav {
 }
 
 .section-title__main {
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 11px;
   line-height: 37.5px;
 }
 
 .section-title__sub {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 36px;
   margin-bottom: 49px;
 }
@@ -348,7 +349,7 @@ nav {
   margin-bottom: 4px;
 }
 .card__subtitle {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   padding: 2px 0px;
   margin-bottom: 4px;
